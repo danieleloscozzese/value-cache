@@ -1,0 +1,31 @@
+{
+  "name": "@dagher/cache-object",
+  "version": "1.0.0",
+  "description": "An object which holds a value for a given time.",
+  "module": "cache.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node cache.spec.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieleloscozzese/cache-object.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": {
+    "name": "Daniel Arthur Gallagher",
+    "email": "npm@danielarthurgallagher.dev",
+    "url": "https://danielarthurgallagher.dev"
+  },
+  "license": "EUPL-1.2",
+  "bugs": {
+    "url": "https://github.com/danieleloscozzese/cache-object/issues"
+  },
+  "homepage": "https://github.com/danieleloscozzese/cache-object#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "3.4.2"
+  }
+}
