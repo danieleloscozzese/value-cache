@@ -1,2 +1,4 @@
+.github
+
 prettier.config.mjs
 *.spec.*
