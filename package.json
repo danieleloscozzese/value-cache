@@ -2,11 +2,10 @@
 	"name": "@dagher/value-cache",
 	"version": "1.0.0",
 	"description": "Allows temporarily storing values, resetting them to undefined after a timeout",
-	"module": "cache.mjs",
 	"type": "module",
 	"exports": {
 		"import": "./cache.mjs",
-		"types": "./cache.d.ts"
+		"types": "./index.d.ts"
 	},
 	"scripts": {
 		"test": "node cache.spec.mjs"
