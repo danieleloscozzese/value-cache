@@ -8,7 +8,8 @@ on:
     types: ["created"]
 
 jobs:
-  build:
+  test:
+    name: "Test"
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v4
@@ -19,7 +20,8 @@ jobs:
         timeout-minutes: 5
 
   publish-npm:
-    needs: build
+    name: "Publish to npm"
+    needs: ["test"]
     permissions:
       contents: read
       id-token: write
