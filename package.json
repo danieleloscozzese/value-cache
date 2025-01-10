@@ -1,6 +1,6 @@
 {
 	"name": "@dagher/value-cache",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Allows temporarily storing values, resetting them to undefined after a timeout",
 	"type": "module",
 	"exports": {
