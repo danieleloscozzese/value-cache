@@ -29,6 +29,6 @@
 	"homepage": "https://github.com/danieleloscozzese/value-cache#readme",
 	"devDependencies": {
 		"@types/node": "^22.10.5",
-		"prettier": "3.6.2"
+		"prettier": "3.7.4"
 	}
 }
