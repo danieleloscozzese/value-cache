@@ -28,7 +28,7 @@
 	},
 	"homepage": "https://github.com/danieleloscozzese/value-cache#readme",
 	"devDependencies": {
-		"@types/node": "^24",
+		"@types/node": "^25",
 		"prettier": "3.7.4"
 	}
 }
